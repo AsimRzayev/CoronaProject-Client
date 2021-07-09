@@ -36,4 +36,14 @@ body {
     .home {
         flex-direction: column;
     }
+    .home_stats {
+        display: flex;
+        flex-direction: column;
+    }
+    .infoBox {
+        margin-top: 10px;
+    }
+    .infoBox:last-child {
+        margin-right: 15px;
+    }
 }
