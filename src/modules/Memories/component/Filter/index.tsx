@@ -119,7 +119,7 @@ const Filter: React.FC<IFormProps> = ({ currentId, setCurrentId }) => {
                         variant="contained"
                         color="primary"
                         type="submit"
-                        style={{ marginTop: 10 }}
+                        style={{ marginTop: 10, marginRight: 10 }}
                     >
                         Filter
                     </Button>
@@ -127,7 +127,7 @@ const Filter: React.FC<IFormProps> = ({ currentId, setCurrentId }) => {
                         variant="contained"
                         color="secondary"
                         onClick={clearFilter}
-                        style={{ marginTop: 10, marginLeft: 10 }}
+                        style={{ marginTop: 10 }}
                     >
                         Clear
                     </Button>

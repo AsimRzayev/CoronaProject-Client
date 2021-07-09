@@ -11,7 +11,7 @@ import Button from "@material-ui/core/Button";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { Avatar } from "@material-ui/core";
 import { deepPurple } from "@material-ui/core/colors";
-import { withRouter, useHistory, useLocation } from "react-router-dom";
+import { withRouter, useHistory, useLocation, Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import Logo from "./covid19_logo.png";
 import { AUTH_ACTIONS } from "../../modules/Auth/actions/consts";
@@ -121,7 +121,14 @@ const Navbar = () => {
             <AppBar position="static" color="transparent">
                 <Toolbar>
                     <Typography variant="h6" className={classes.title}>
-                        <img src={Logo} width={100} height={40} alt={"Logo"} />
+                        <Link to="/">
+                            <img
+                                src={Logo}
+                                width={100}
+                                height={40}
+                                alt={"Logo"}
+                            />
+                        </Link>
                     </Typography>
                     {isMobile ? (
                         <>
