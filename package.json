@@ -21,6 +21,7 @@
         "@types/react-router-dom": "^5.1.7",
         "@types/redux-thunk": "^2.1.0",
         "@types/yup": "^0.29.11",
+        "@types/numeral": "^2.0.1",
         "axios": "^0.21.1",
         "chart.js": "^3.3.2",
         "formik": "^2.2.9",
@@ -78,7 +79,6 @@
     },
     "devDependencies": {
         "@types/query-string": "^6.3.0",
-        "@types/numeral": "^2.0.1",
         "@types/react-color": "^3.0.4",
         "@types/redux-logger": "^3.0.8",
         "react-file-base64": "^1.0.3"
