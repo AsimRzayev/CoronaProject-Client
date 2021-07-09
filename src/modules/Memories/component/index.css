@@ -1,0 +1,7 @@
+@media only screen and (min-width: 600px) {
+    .filterForm {
+        position: sticky;
+        top: 5px;
+        align-self: flex-start;
+    }
+}

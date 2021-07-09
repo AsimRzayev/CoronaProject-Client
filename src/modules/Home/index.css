@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: #f5f6fa;
+}
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.home_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.home_left {
+    flex: 0.9;
+}
+.home_stats {
+    display: flex;
+    justify-content: space-between;
+}
+.infoBox:not(:last-child) {
+    margin-right: 15px;
+}
+
+.infoBox_cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+@media (max-width: 990px) {
+    .home {
+        flex-direction: column;
+    }
+}
