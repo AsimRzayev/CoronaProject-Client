@@ -21,7 +21,7 @@ const Memory: React.FC<IMemoryProps> = ({ setCurrentId }) => {
         >
             {data.status === "SUCCESS" && data ? (
                 data.data.map((memory: IMemories) => (
-                    <Grid key={memory._id} item xs={12} sm={6} md={4}>
+                    <Grid key={memory._id} item xs={12} sm={12} md={6} lg={6}>
                         <MemoryItem
                             memory={memory}
                             setCurrentId={setCurrentId}

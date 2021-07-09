@@ -22,10 +22,10 @@ export const Memories = () => {
                             currentId={currentId}
                         />
                     </Grid>
-                    <Grid item xs={12} sm={8}>
+                    <Grid item xs={12} sm={7}>
                         <Memory setCurrentId={setCurrentId} />
                     </Grid>
-                    <Grid item xs={12} sm={2}>
+                    <Grid item xs={12} sm={3}>
                         <Form
                             setCurrentId={setCurrentId}
                             currentId={currentId}
