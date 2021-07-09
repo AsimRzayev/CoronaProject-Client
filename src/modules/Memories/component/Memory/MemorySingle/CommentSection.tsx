@@ -25,7 +25,6 @@ const CommentSection: React.FC<IMemory> = ({ memory }) => {
         setComments(newComments);
         commentsRef.current.scrollIntoView({ behavior: "smooth" });
     };
-    console.log(user);
     return (
         <div>
             <div className={classes.commentsOuterContainer}>
