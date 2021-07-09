@@ -31,6 +31,9 @@ export class HttpClient {
             },
         });
     }
+    async patchView(url: string, user: string) {
+        return await axios.patch(`${this.baseUrl}/${url}`, user);
+    }
     async post(url: string, body: any) {
         return await axios.post(`${this.baseUrl}/${url}`, body, {
             headers: {

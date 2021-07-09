@@ -24,7 +24,7 @@ class MemoriesService extends HttpClient {
         return this.patch(`memories/updateMemory/${id}`, body);
     }
     async updateMemoriesView(body: any) {
-        return this.patch("memories/updateViewer", body);
+        return this.patchView("memories/updateViewer", body);
     }
     async deleteMemory(id: string) {
         return this.delete(`memories/deleteMemory/${id}`);
