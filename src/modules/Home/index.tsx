@@ -105,7 +105,10 @@ export const Home = () => {
                                 onCountryChange(e)
                             }
                         >
-                            <MenuItem key={-100} value="Worldwide">
+                            <MenuItem
+                                key={"43wster57tdye5s5e4se45w45s"}
+                                value="Worldwide"
+                            >
                                 Worldwide
                             </MenuItem>
                             {countries.map((country: any, idx: number) => (

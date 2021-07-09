@@ -3,7 +3,7 @@ import { ISignIn } from "../../interface";
 
 class AuthService extends HttpClient {
     constructor() {
-        super("http://localhost:8000");
+        super("https://covid-memories-api.herokuapp.com");
     }
 
     async signin(userData: ISignIn) {

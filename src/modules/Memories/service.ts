@@ -3,7 +3,7 @@ import { IFilter, IMemories } from "../../interface";
 
 class MemoriesService extends HttpClient {
     constructor() {
-        super("http://localhost:8000");
+        super("https://covid-memories-api.herokuapp.com");
     }
 
     async getMemories(page: any) {
